@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+#delConfirmText{
+	animation: blinking 1.5s infinite;
+	font-family: arial;
+	font-size: x-large;
+	font-weight: bold;
+}
+
+@keyframes blinking{
+	0%{   color: red;   }
+	47%{   color: #000; }
+	62%{   color: transparent; }
+	97%{   color:transparent; }
+	100%{  color: #000;   }
+}	
